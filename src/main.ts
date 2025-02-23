@@ -12,7 +12,7 @@ import * as directives from 'vuetify/directives'
 import ganttastic from '@infectoone/vue-ganttastic'
 
 // Components
-import App from './App.vue'
+import App from '@/App.vue'
 
 const vuetify = createVuetify({
   components,

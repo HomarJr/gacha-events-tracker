@@ -5,7 +5,7 @@ import {
   toId,
   type ganttBarConfig,
   type TimelineEvents,
-} from './comon'
+} from '@/data/comon'
 import type { GanttBarObject } from '@infectoone/vue-ganttastic'
 
 export function getGenshinEventsData(): TimelineEvents[] {
