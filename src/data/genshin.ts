@@ -8,6 +8,10 @@ import {
 } from '@/data/comon'
 import type { GanttBarObject } from '@infectoone/vue-ganttastic'
 
+/**
+ * Retrieves and maps Genshin Impact events data.
+ * @returns {TimelineEvents[]} An array of mapped Genshin Impact events.
+ */
 export function getGenshinEventsData(): TimelineEvents[] {
   const mappedGenshinEvenetsData: TimelineEvents[] = []
   const allGenshinEvents: GanttBarObject[][] = []
