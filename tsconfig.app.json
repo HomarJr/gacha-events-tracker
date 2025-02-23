@@ -4,9 +4,15 @@
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-
+    "moduleResolution": "node", // Ensures Node.js module resolution
+    "esModuleInterop": true, // Allows default imports from non-ES modules
+    "allowSyntheticDefaultImports": true, // Allows synthetic default imports
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "typeRoots": [
+      "node_modules/@types", // Include @types from node_modules
+      "node_modules" // Ensure custom type declarations are picked up
+    ]
   }
 }
