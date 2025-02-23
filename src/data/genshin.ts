@@ -19,7 +19,7 @@ export function getGenshinEventsData(): TimelineEvents[] {
     const genshinEvents: GanttBarObject[] = []
 
     events.forEach((event) => {
-      if (event.showOnHome === false) return false
+      if (event.showOnHome === false) return
 
       const startDate = new Date(event.start)
       const endDate = new Date(event.end)
