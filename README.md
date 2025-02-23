@@ -2,6 +2,18 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+### TODO list:
+
+- [x] Genshin Impact events
+- [ ] Wuthering Waves events
+- [ ] Honkai Star Rail events
+- [ ] Zenless Zone Zero events
+- [ ] Add a selector for different games
+- [ ] Update Genshin Impact events to show full name, image and link to official url
+- [ ] Modify start date so that it is the earliest date only for the current events
+- [ ] Update favicon and page title
+- [ ] Fix bug where in prod build a user is able to drag events
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
