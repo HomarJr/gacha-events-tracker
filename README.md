@@ -6,6 +6,7 @@ This template should help get you started developing with Vue 3 in Vite.
 
 - [x] Genshin Impact events
 - [x] Wuthering Waves events
+- [x] Update source for Wuthering Waves events
 - [ ] Honkai Star Rail events
 - [ ] Zenless Zone Zero events
 - [ ] Add a selector for different games
